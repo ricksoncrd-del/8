@@ -1,0 +1,64 @@
+{
+  "name": "Harvester Mission Fellowship – Bible",
+  "short_name": "HMFC Bible",
+  "description": "Read, Listen, Study & Grow in God's Word — Harvester Mission Fellowship Church Bible App",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0e1117",
+  "theme_color": "#c9a84c",
+  "lang": "en",
+  "categories": ["books", "education", "lifestyle"],
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Read Bible",
+      "short_name": "Read",
+      "description": "Open the Bible reader",
+      "url": "./index.html#read",
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Bible Reading Plan",
+      "short_name": "Reading Plan",
+      "description": "Check your reading plan calendar",
+      "url": "./index.html#calendar",
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Notes",
+      "short_name": "Notes",
+      "description": "View your verse notes",
+      "url": "./index.html#notes",
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
